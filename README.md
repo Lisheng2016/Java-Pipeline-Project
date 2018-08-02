@@ -1,2 +1,2 @@
-# Java-Pipeline-Project
-Java test project for jenkins
+# java-project
+Java Project for Jenkins Course
