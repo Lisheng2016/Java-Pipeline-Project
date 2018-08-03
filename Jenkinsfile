@@ -2,7 +2,7 @@ pipeline {
 	agent any
 
 	environment {
-		env MAJOR_VERSION=1.00
+		MAJOR_VERSION=1.00
 	}
 	stages {
 		stage('build') {
