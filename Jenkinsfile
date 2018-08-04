@@ -1,6 +1,9 @@
 pipeline { 
 	agent any
 
+	options {
+		buildDiscarder(logRotator(numToKeepStr: '2', artifactNumToKeepStr: '1'))
+	}
 	environment {
 		MAJOR_VERSION=1.00
 	}
